@@ -1,8 +1,3 @@
-const Home = () => (
-  <div>
-    <h3>This is the Index page.</h3>
-    <Button type="primary">Primary</Button>
-  </div>
-)
+import Home from '../components/Home/Home'
 
 export default Home

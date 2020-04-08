@@ -1,0 +1,1 @@
+{"ast":null,"code":"import Home from '../components/Home/Home';\nexport default Home;","map":{"version":3,"sources":["C:/BaoBao/Next/bzh-blog/pages/index.js"],"names":["Home"],"mappings":"AAAA,OAAOA,IAAP,MAAiB,yBAAjB;AAEA,eAAeA,IAAf","sourcesContent":["import Home from '../components/Home/Home'\n\nexport default Home"]},"metadata":{},"sourceType":"module"}
