@@ -1,0 +1,15 @@
+{
+  "presets": [
+    "next/babel"
+  ],
+  "plugins": [
+    "@babel/transform-decorators-legacy",
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "style": "css"
+      }
+    ]
+  ]
+}
