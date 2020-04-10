@@ -15,12 +15,10 @@
     "next": "latest",
     "null-loader": "^3.0.0",
     "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "sass": "^1.26.3"
+    "react-dom": "^16.7.0"
   },
   "license": "ISC",
   "devDependencies": {
-    "babel-plugin-import": "^1.13.0",
-    "less-loader": "^5.0.0"
+    "babel-plugin-import": "^1.13.0"
   }
 }

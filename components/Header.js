@@ -30,8 +30,7 @@ class Header extends React.Component {
         <div className="header-content">
           <Link href="/">
             <div className="logo-container">
-              <img className="logo" alt="logo" src="/images/logo.jpg" />
-              <span className="sys-name">BZHHHH</span>
+              <span className="sys-name">包崽无限公司</span>
             </div>
           </Link>
           <Menu
@@ -81,13 +80,13 @@ class Header extends React.Component {
               display: inline-block;
               margin-left: 10px;
               font-size: 20px;
-              color: pink;
-              font-weight: 600;
+              color: #e9819b;
+              font-weight: 500;
             }
-            .logo {
-              width: 30px;
-              height: 30px;
-            }
+            // .logo {
+            //   width: 30px;
+            //   height: 30px;
+            // }
           `}
         </style>
       </div>
