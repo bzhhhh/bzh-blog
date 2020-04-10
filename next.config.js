@@ -1,6 +1,6 @@
-const lessToJS = require('less-vars-to-js');
-const fs = require('fs');
-const path = require('path');
+const fs = require('fs')
+const path = require('path')
+const lessToJS = require('less-vars-to-js')
 
 const themeVariables = lessToJS(
   fs.readFileSync(path.resolve(__dirname, './assets/antd-custom.less'), 'utf8')
@@ -27,11 +27,17 @@ module.exports = {
         ...(typeof origExternals[0] === 'function' ? [] : origExternals),
       ]
 
+      // config.module.rules.unshift({
+      //   test: antStyles,
+      //   use: 'null-loader',
+      // })
+
       config.module.rules.unshift({
-        test: antStyles,
-        use: 'null-loader',
+        test: /\.less$/,
+        use: 'less-loader' // compiles Less to CSS
       })
+
     }
     return config
-  },
+  }
 }
