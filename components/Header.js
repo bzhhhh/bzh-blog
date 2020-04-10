@@ -1,59 +1,95 @@
 import React, { Component } from 'react'
+import { Menu, Button, Input } from 'antd'
+import {
+  MailOutlined,
+  SearchOutlined
+} from '@ant-design/icons'
 import Link from 'next/link'
 
-class Header extends Component {
+const { Search } = Input
+
+class Header extends React.Component {
   constructor(props) {
     super(props)
-    const { title } = props
-    this.state = { title }
-  }
 
+    const { title } = props
+    this.state = {
+      title,
+      current: 'mail',
+    }
+  }
+  handleClick = (e) => {
+    console.log('click ', e)
+    this.setState({
+      current: e.key,
+    })
+  }
   render() {
-    const { title } = this.state
     return (
-      <div className="header-container">
-        <Link href="/">
-          <div className="logo-container">
-            <img className="logo" alt="logo" src="/images/logo.jpg" />
-            <span className="sys-name">BZH</span>
+      <div className="header">
+        <div className="header-content">
+          <Link href="/">
+            <div className="logo-container">
+              <img className="logo" alt="logo" src="/images/logo.jpg" />
+              <span className="sys-name">BZHHHH</span>
+            </div>
+          </Link>
+          <Menu
+            onClick={this.handleClick}
+            selectedKeys={[this.state.current]}
+            mode="horizontal"
+          >
+            <Menu.Item key="mail">
+              <MailOutlined />
+              AAA
+            </Menu.Item>
+            <Menu.Item key="bbb">
+              <MailOutlined />
+              BBB
+            </Menu.Item>
+            <Menu.Item key="ccc">
+              <MailOutlined />
+              CCC
+            </Menu.Item>
+          </Menu>
+          <div className="search-content">
+            <Button type="dashed" icon={<SearchOutlined />}>Search</Button>
+            {/* <Search
+              placeholder="input search text"
+              onSearch={value => console.log(value)}
+              style={{ width: 200 }}
+            /> */}
           </div>
-        </Link>
-        <h2>{title}</h2>
-        <style jsx>{`
-          .header-container {
-            height: 60px;
-            background-color: #fff;
-            border: 2px solid pink;
-            margin-bottom: 10px;
-          }
-          h2 {
-            text-align: center;
-            line-height: 60px;
-            font-size: 1.6rem;
-            font-weight: 500;
-            color: #fff;
-          }
-          .logo-container {
-            position: absolute;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            top: 15px;
-            left: 20px;
-            cursor: pointer;
-          }
-          .sys-name {
-            display: inline-block;
-            margin-left: 10px;
-            font-size: 20px;
-            color: pink;
-            font-weight: 600;
-          }
-          .logo {
-            width: 30px;
-            height: 30px;
-          }
-        `}</style>
+        </div>
+        <style jsx global>
+          {`
+            .header {
+              width: 100%;
+              height: 60px;
+            }
+            .header-content {
+              position: relative;
+              display: flex;
+              justify-content: space-around;
+              align-items: center;
+              width: 66%;
+              height: 100%;
+              margin: 0 auto;
+              // border: 1px dashed pink;
+            }
+            .sys-name {
+              display: inline-block;
+              margin-left: 10px;
+              font-size: 20px;
+              color: pink;
+              font-weight: 600;
+            }
+            .logo {
+              width: 30px;
+              height: 30px;
+            }
+          `}
+        </style>
       </div>
     )
   }
