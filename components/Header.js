@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Menu, Button, Input } from 'antd'
 import {
-  MailOutlined,
+  HeartTwoTone,
   SearchOutlined
 } from '@ant-design/icons'
 import Link from 'next/link'
@@ -15,15 +15,17 @@ class Header extends React.Component {
     const { title } = props
     this.state = {
       title,
-      current: 'mail',
+      current: '',
     }
   }
+
   handleClick = (e) => {
     console.log('click ', e)
     this.setState({
       current: e.key,
     })
   }
+
   render() {
     return (
       <div className="header">
@@ -39,16 +41,24 @@ class Header extends React.Component {
             mode="horizontal"
           >
             <Menu.Item key="mail">
-              <MailOutlined />
-              AAA
+              <HeartTwoTone twoToneColor="#e9819b" />
+              <Link href="/blog/blog">
+                <a>Blog</a>
+              </Link>
             </Menu.Item>
+
             <Menu.Item key="bbb">
-              <MailOutlined />
-              BBB
+              <HeartTwoTone twoToneColor="#e9819b" />
+              <Link href="/cat/cat">
+                <a>Cat</a>
+              </Link>
             </Menu.Item>
+
             <Menu.Item key="ccc">
-              <MailOutlined />
-              CCC
+              <HeartTwoTone twoToneColor="#e9819b" />
+              <Link href="/life/life">
+                <a>Life</a>
+              </Link>
             </Menu.Item>
           </Menu>
           <div className="search-content">
@@ -74,7 +84,9 @@ class Header extends React.Component {
               width: 66%;
               height: 100%;
               margin: 0 auto;
-              // border: 1px dashed pink;
+            }
+            .logo-container {
+              cursor: pointer;
             }
             .sys-name {
               display: inline-block;
@@ -83,10 +95,6 @@ class Header extends React.Component {
               color: #e9819b;
               font-weight: 500;
             }
-            // .logo {
-            //   width: 30px;
-            //   height: 30px;
-            // }
           `}
         </style>
       </div>
