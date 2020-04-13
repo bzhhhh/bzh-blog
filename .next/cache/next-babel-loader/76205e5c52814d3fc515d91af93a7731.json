@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const RoleType = {\n  0: 'admin',\n  1: 'user'\n};","map":{"version":3,"sources":["C:/BaoBao/Next/bzh-blog/constants/ConstTypes.js"],"names":["RoleType"],"mappings":"AAAA,OAAO,MAAMA,QAAQ,GAAG;AACtB,KAAG,OADmB;AAEtB,KAAG;AAFmB,CAAjB","sourcesContent":["export const RoleType = {\r\n  0: 'admin',\r\n  1: 'user'\r\n}"]},"metadata":{},"sourceType":"module"}
