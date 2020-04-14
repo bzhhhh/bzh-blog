@@ -10,7 +10,7 @@ const themeVariables = lessToJS(
 )
 
 if (typeof require !== 'undefined') {
-  require.extensions['.less'] = () => { }
+  require.extensions['.less'] = () => {}
 }
 
 module.exports = withLess(
@@ -41,6 +41,14 @@ module.exports = withLess(
         })
       }
       return config
-    }
+    },
+    exportPathMap: async function (defaultPathMap) {
+      return {
+        '/': { page: '/' },
+        '/blog': { page: '/blog/blog' },
+        '/cat': { page: '/cat/cat' },
+        '/life': { page: '/life/life' },
+      }
+    },
   })
 )
