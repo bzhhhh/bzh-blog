@@ -102,11 +102,11 @@ module.exports =
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var antd_lib_skeleton_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! antd/lib/skeleton/style */ "antd/lib/skeleton/style");
+/* harmony import */ var antd_lib_skeleton_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! antd/lib/skeleton/style */ "./node_modules/antd/lib/skeleton/style/index.js");
 /* harmony import */ var antd_lib_skeleton_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(antd_lib_skeleton_style__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var antd_lib_skeleton__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/lib/skeleton */ "antd/lib/skeleton");
 /* harmony import */ var antd_lib_skeleton__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(antd_lib_skeleton__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var antd_lib_menu_style__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! antd/lib/menu/style */ "antd/lib/menu/style");
+/* harmony import */ var antd_lib_menu_style__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! antd/lib/menu/style */ "./node_modules/antd/lib/menu/style/index.js");
 /* harmony import */ var antd_lib_menu_style__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(antd_lib_menu_style__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var antd_lib_menu__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! antd/lib/menu */ "antd/lib/menu");
 /* harmony import */ var antd_lib_menu__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(antd_lib_menu__WEBPACK_IMPORTED_MODULE_3__);
@@ -116,8 +116,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ant_design_icons__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_ant_design_icons__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _home_less__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./home.less */ "./components/Home/home.less");
-/* harmony import */ var _home_less__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_home_less__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next/router */ "next/router");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _home_less__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./home.less */ "./components/Home/home.less");
+/* harmony import */ var _home_less__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_home_less__WEBPACK_IMPORTED_MODULE_8__);
 
 
 
@@ -132,12 +134,13 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 
 
+
 class Home extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Component {
   constructor(props) {
     super(props);
 
     _defineProperty(this, "handleClick", e => {
-      console.log('click ', e);
+      next_router__WEBPACK_IMPORTED_MODULE_7___default.a.push(e.key);
       this.setState({
         current: e.key
       });
@@ -158,7 +161,7 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 29,
+        lineNumber: 30,
         columnNumber: 7
       }
     }, __jsx("div", {
@@ -166,7 +169,7 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 30,
+        lineNumber: 31,
         columnNumber: 9
       }
     }, __jsx("div", {
@@ -174,7 +177,7 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 31,
+        lineNumber: 32,
         columnNumber: 11
       }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
@@ -182,7 +185,7 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 32,
+        lineNumber: 33,
         columnNumber: 13
       }
     }, __jsx("span", {
@@ -190,7 +193,7 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 33,
+        lineNumber: 34,
         columnNumber: 15
       }
     }, "\u5305\u5D3D\u65E0\u9650\u516C\u53F8"))), __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -200,46 +203,47 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 36,
+        lineNumber: 37,
         columnNumber: 11
       }
     }, __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_3___default.a.Item, {
-      key: "mail",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 41,
-        columnNumber: 13
-      }
-    }, __jsx(_ant_design_icons__WEBPACK_IMPORTED_MODULE_5__["HeartTwoTone"], {
-      twoToneColor: "#e9819b",
+      key: "/blog",
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 42,
-        columnNumber: 15
+        columnNumber: 13
       }
-    }), __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-      href: "/blog/blog",
+    }, __jsx(_ant_design_icons__WEBPACK_IMPORTED_MODULE_5__["HeartTwoTone"], {
+      twoToneColor: "#e9819b",
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 43,
         columnNumber: 15
       }
-    }, __jsx("a", {
+    }), "Blog"), __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_3___default.a.Item, {
+      key: "/cat",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 44,
-        columnNumber: 17
+        lineNumber: 47,
+        columnNumber: 13
       }
-    }, "Blog"))), __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_3___default.a.Item, {
-      key: "bbb",
+    }, __jsx(_ant_design_icons__WEBPACK_IMPORTED_MODULE_5__["HeartTwoTone"], {
+      twoToneColor: "#e9819b",
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 48,
+        columnNumber: 15
+      }
+    }), "Cat"), __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_3___default.a.Item, {
+      key: "/life",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 52,
         columnNumber: 13
       }
     }, __jsx(_ant_design_icons__WEBPACK_IMPORTED_MODULE_5__["HeartTwoTone"], {
@@ -247,61 +251,15 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 49,
+        lineNumber: 53,
         columnNumber: 15
       }
-    }), __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-      href: "/cat/cat",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 50,
-        columnNumber: 15
-      }
-    }, __jsx("a", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 51,
-        columnNumber: 17
-      }
-    }, "Cat"))), __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_3___default.a.Item, {
-      key: "ccc",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 55,
-        columnNumber: 13
-      }
-    }, __jsx(_ant_design_icons__WEBPACK_IMPORTED_MODULE_5__["HeartTwoTone"], {
-      twoToneColor: "#e9819b",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 56,
-        columnNumber: 15
-      }
-    }), __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-      href: "/life/life",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 57,
-        columnNumber: 15
-      }
-    }, __jsx("a", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 58,
-        columnNumber: 17
-      }
-    }, "Life")))), __jsx(antd_lib_skeleton__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    }), "Life")), __jsx(antd_lib_skeleton__WEBPACK_IMPORTED_MODULE_1___default.a, {
       active: true,
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 62,
+        lineNumber: 57,
         columnNumber: 11
       }
     })));
@@ -317,6 +275,100 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Component {
 /*!***********************************!*\
   !*** ./components/Home/home.less ***!
   \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./node_modules/antd/lib/menu/style/index.js":
+/*!***************************************************!*\
+  !*** ./node_modules/antd/lib/menu/style/index.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+__webpack_require__(/*! ../../style/index.less */ "./node_modules/antd/lib/style/index.less");
+
+__webpack_require__(/*! ./index.less */ "./node_modules/antd/lib/menu/style/index.less");
+
+__webpack_require__(/*! ../../tooltip/style */ "./node_modules/antd/lib/tooltip/style/index.js");
+
+/***/ }),
+
+/***/ "./node_modules/antd/lib/menu/style/index.less":
+/*!*****************************************************!*\
+  !*** ./node_modules/antd/lib/menu/style/index.less ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./node_modules/antd/lib/skeleton/style/index.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/antd/lib/skeleton/style/index.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+__webpack_require__(/*! ../../style/index.less */ "./node_modules/antd/lib/style/index.less");
+
+__webpack_require__(/*! ./index.less */ "./node_modules/antd/lib/skeleton/style/index.less");
+
+/***/ }),
+
+/***/ "./node_modules/antd/lib/skeleton/style/index.less":
+/*!*********************************************************!*\
+  !*** ./node_modules/antd/lib/skeleton/style/index.less ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./node_modules/antd/lib/style/index.less":
+/*!************************************************!*\
+  !*** ./node_modules/antd/lib/style/index.less ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./node_modules/antd/lib/tooltip/style/index.js":
+/*!******************************************************!*\
+  !*** ./node_modules/antd/lib/tooltip/style/index.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+__webpack_require__(/*! ../../style/index.less */ "./node_modules/antd/lib/style/index.less");
+
+__webpack_require__(/*! ./index.less */ "./node_modules/antd/lib/tooltip/style/index.less");
+
+/***/ }),
+
+/***/ "./node_modules/antd/lib/tooltip/style/index.less":
+/*!********************************************************!*\
+  !*** ./node_modules/antd/lib/tooltip/style/index.less ***!
+  \********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -2304,17 +2356,6 @@ module.exports = require("antd/lib/menu");
 
 /***/ }),
 
-/***/ "antd/lib/menu/style":
-/*!**************************************!*\
-  !*** external "antd/lib/menu/style" ***!
-  \**************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("antd/lib/menu/style");
-
-/***/ }),
-
 /***/ "antd/lib/skeleton":
 /*!************************************!*\
   !*** external "antd/lib/skeleton" ***!
@@ -2326,14 +2367,14 @@ module.exports = require("antd/lib/skeleton");
 
 /***/ }),
 
-/***/ "antd/lib/skeleton/style":
-/*!******************************************!*\
-  !*** external "antd/lib/skeleton/style" ***!
-  \******************************************/
+/***/ "next/router":
+/*!******************************!*\
+  !*** external "next/router" ***!
+  \******************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = require("antd/lib/skeleton/style");
+module.exports = require("next/router");
 
 /***/ }),
 

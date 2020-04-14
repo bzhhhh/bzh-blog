@@ -4,6 +4,7 @@ import {
   HeartTwoTone,
   SearchOutlined
 } from '@ant-design/icons'
+import Router from 'next/router'
 import Link from 'next/link'
 
 const { Search } = Input
@@ -20,7 +21,7 @@ class Header extends React.Component {
   }
 
   handleClick = (e) => {
-    console.log('click ', e)
+    Router.push(e.key)
     this.setState({
       current: e.key,
     })
@@ -40,25 +41,19 @@ class Header extends React.Component {
             selectedKeys={[this.state.current]}
             mode="horizontal"
           >
-            <Menu.Item key="mail">
+             <Menu.Item key="/blog">
               <HeartTwoTone twoToneColor="#e9819b" />
-              <Link href="/blog/blog">
-                <a>Blog</a>
-              </Link>
+              Blog
             </Menu.Item>
 
-            <Menu.Item key="bbb">
+            <Menu.Item key="/cat">
               <HeartTwoTone twoToneColor="#e9819b" />
-              <Link href="/cat/cat">
-                <a>Cat</a>
-              </Link>
+              Cat
             </Menu.Item>
 
-            <Menu.Item key="ccc">
+            <Menu.Item key="/life">
               <HeartTwoTone twoToneColor="#e9819b" />
-              <Link href="/life/life">
-                <a>Life</a>
-              </Link>
+              Life
             </Menu.Item>
           </Menu>
           <div className="search-content">

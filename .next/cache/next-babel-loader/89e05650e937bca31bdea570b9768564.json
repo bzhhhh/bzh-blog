@@ -1,0 +1,1 @@
+{"ast":null,"code":"import Life from '../components/Life/Life';\nexport default Life;","map":{"version":3,"sources":["C:/BaoBao/Next/bzh-blog/pages/life.js"],"names":["Life"],"mappings":"AAAA,OAAOA,IAAP,MAAiB,yBAAjB;AAEA,eAAeA,IAAf","sourcesContent":["import Life from '../components/Life/Life'\r\n\r\nexport default Life"]},"metadata":{},"sourceType":"module"}
