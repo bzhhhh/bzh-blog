@@ -1,0 +1,1 @@
+{"ast":null,"code":"import Cat from '../../components/Cat/Cat';\nexport default Cat;","map":{"version":3,"sources":["E:/test/react/bzh-blog/pages/cat/cat.js"],"names":["Cat"],"mappings":"AAAA,OAAOA,GAAP,MAAgB,0BAAhB;AAEA,eAAeA,GAAf","sourcesContent":["import Cat from '../../components/Cat/Cat'\r\n\r\nexport default Cat"]},"metadata":{},"sourceType":"module"}

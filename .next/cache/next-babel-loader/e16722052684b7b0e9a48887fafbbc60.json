@@ -1,0 +1,1 @@
+{"ast":null,"code":"import Life from '../../components/Life/Life';\nexport default Life;","map":null,"metadata":{},"sourceType":"module"}

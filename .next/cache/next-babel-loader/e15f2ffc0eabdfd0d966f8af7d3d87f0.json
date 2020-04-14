@@ -1,0 +1,1 @@
+{"ast":null,"code":"import Blog from '../../components/Blog/Blog';\nexport default Blog;","map":{"version":3,"sources":["E:/test/react/bzh-blog/pages/blog/blog.js"],"names":["Blog"],"mappings":"AAAA,OAAOA,IAAP,MAAiB,4BAAjB;AAEA,eAAeA,IAAf","sourcesContent":["import Blog from '../../components/Blog/Blog'\r\n\r\nexport default Blog"]},"metadata":{},"sourceType":"module"}
