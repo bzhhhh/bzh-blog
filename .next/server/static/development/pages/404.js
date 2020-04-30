@@ -106,7 +106,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\BaoBao\\Next\\bzh-blog\\pages\\404.js";
+var _jsxFileName = "E:\\test\\react\\bzh-blog\\pages\\404.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
@@ -130,7 +130,7 @@ const errorPage = () => __jsx("div", {
 }, "404 - Page Not Found."), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
   id: "3595589675",
   __self: undefined
-}, "*.jsx-3595589675{margin:0;padding:0;}.error-page.jsx-3595589675{position:absolute;width:100%;height:100%;}h1.jsx-3595589675{position:absolute;top:40%;left:40%;-webkit-transform:translate(-50% -50%);-ms-transform:translate(-50% -50%);transform:translate(-50% -50%);color:#4055b1;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxCYW9CYW9cXE5leHRcXGJ6aC1ibG9nXFxwYWdlc1xcNDA0LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUtRLEFBR29CLEFBSVMsQUFLQSxTQVJSLFNBSUMsQUFLSCxDQVJWLE9BU1csR0FMRyxNQU1tQixNQUxqQyxtR0FNZ0IsY0FDaEIiLCJmaWxlIjoiQzpcXEJhb0Jhb1xcTmV4dFxcYnpoLWJsb2dcXHBhZ2VzXFw0MDQuanMiLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCBlcnJvclBhZ2UgPSAoKSA9PiAoXHJcbiAgPGRpdiBjbGFzc05hbWU9eydlcnJvci1wYWdlJ30+XHJcbiAgICA8aDE+NDA0IC0gUGFnZSBOb3QgRm91bmQuPC9oMT5cclxuICAgIDxzdHlsZSBqc3g+XHJcbiAgICAgIHtcclxuICAgICAgICBgXHJcbiAgICAgICAgKiB7XHJcbiAgICAgICAgICBtYXJnaW46IDA7XHJcbiAgICAgICAgICBwYWRkaW5nOiAwO1xyXG4gICAgICAgIH1cclxuICAgICAgICAuZXJyb3ItcGFnZSB7XHJcbiAgICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICAgICAgICB3aWR0aDogMTAwJTtcclxuICAgICAgICAgIGhlaWdodDogMTAwJTtcclxuICAgICAgICB9XHJcbiAgICAgICAgaDEge1xyXG4gICAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgICAgICAgdG9wOiA0MCU7XHJcbiAgICAgICAgICBsZWZ0OiA0MCU7XHJcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlIC01MCUpO1xyXG4gICAgICAgICAgY29sb3I6ICM0MDU1YjE7XHJcbiAgICAgICAgfVxyXG4gICAgICBgXHJcbiAgICAgIH1cclxuICAgIDwvc3R5bGU+XHJcbiAgPC9kaXYgPlxyXG4pXHJcblxyXG5leHBvcnQgZGVmYXVsdCBlcnJvclBhZ2UiXX0= */\n/*@ sourceURL=C:\\\\BaoBao\\\\Next\\\\bzh-blog\\\\pages\\\\404.js */"));
+}, "*.jsx-3595589675{margin:0;padding:0;}.error-page.jsx-3595589675{position:absolute;width:100%;height:100%;}h1.jsx-3595589675{position:absolute;top:40%;left:40%;-webkit-transform:translate(-50% -50%);-ms-transform:translate(-50% -50%);transform:translate(-50% -50%);color:#4055b1;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkU6XFx0ZXN0XFxyZWFjdFxcYnpoLWJsb2dcXHBhZ2VzXFw0MDQuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBS1EsQUFHb0IsQUFJUyxBQUtBLFNBUlIsU0FJQyxBQUtILENBUlYsT0FTVyxHQUxHLE1BTW1CLE1BTGpDLG1HQU1nQixjQUNoQiIsImZpbGUiOiJFOlxcdGVzdFxccmVhY3RcXGJ6aC1ibG9nXFxwYWdlc1xcNDA0LmpzIiwic291cmNlc0NvbnRlbnQiOlsiY29uc3QgZXJyb3JQYWdlID0gKCkgPT4gKFxyXG4gIDxkaXYgY2xhc3NOYW1lPXsnZXJyb3ItcGFnZSd9PlxyXG4gICAgPGgxPjQwNCAtIFBhZ2UgTm90IEZvdW5kLjwvaDE+XHJcbiAgICA8c3R5bGUganN4PlxyXG4gICAgICB7XHJcbiAgICAgICAgYFxyXG4gICAgICAgICoge1xyXG4gICAgICAgICAgbWFyZ2luOiAwO1xyXG4gICAgICAgICAgcGFkZGluZzogMDtcclxuICAgICAgICB9XHJcbiAgICAgICAgLmVycm9yLXBhZ2Uge1xyXG4gICAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgICAgICAgd2lkdGg6IDEwMCU7XHJcbiAgICAgICAgICBoZWlnaHQ6IDEwMCU7XHJcbiAgICAgICAgfVxyXG4gICAgICAgIGgxIHtcclxuICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgICAgICAgIHRvcDogNDAlO1xyXG4gICAgICAgICAgbGVmdDogNDAlO1xyXG4gICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSAtNTAlKTtcclxuICAgICAgICAgIGNvbG9yOiAjNDA1NWIxO1xyXG4gICAgICAgIH1cclxuICAgICAgYFxyXG4gICAgICB9XHJcbiAgICA8L3N0eWxlPlxyXG4gIDwvZGl2ID5cclxuKVxyXG5cclxuZXhwb3J0IGRlZmF1bHQgZXJyb3JQYWdlIl19 */\n/*@ sourceURL=E:\\\\test\\\\react\\\\bzh-blog\\\\pages\\\\404.js */"));
 
 /* harmony default export */ __webpack_exports__["default"] = (errorPage);
 
@@ -143,7 +143,7 @@ const errorPage = () => __jsx("div", {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\BaoBao\Next\bzh-blog\pages\404.js */"./pages/404.js");
+module.exports = __webpack_require__(/*! E:\test\react\bzh-blog\pages\404.js */"./pages/404.js");
 
 
 /***/ }),
