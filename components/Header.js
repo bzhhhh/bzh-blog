@@ -1,7 +1,9 @@
 import React from 'react'
 import { Menu, Button, Input } from 'antd'
 import {
+  SnippetsTwoTone,
   HeartTwoTone,
+  HomeTwoTone,
   SearchOutlined
 } from '@ant-design/icons'
 import Router from 'next/router'
@@ -41,18 +43,18 @@ class Header extends React.Component {
             selectedKeys={[this.state.current]}
             mode="horizontal"
           >
-             <Menu.Item key="/blog">
-              <HeartTwoTone twoToneColor="#e9819b" />
+            <Menu.Item key="/blog">
+              <SnippetsTwoTone twoToneColor="#ccccff" />
               Blog
             </Menu.Item>
 
             <Menu.Item key="/cat">
-              <HeartTwoTone twoToneColor="#e9819b" />
+              <HeartTwoTone twoToneColor="#ccccff" />
               Cat
             </Menu.Item>
 
             <Menu.Item key="/life">
-              <HeartTwoTone twoToneColor="#e9819b" />
+              <HomeTwoTone twoToneColor="#ccccff" />
               Life
             </Menu.Item>
           </Menu>
@@ -87,7 +89,7 @@ class Header extends React.Component {
               display: inline-block;
               margin-left: 10px;
               font-size: 20px;
-              color: #e9819b;
+              color: #99cccc;
               font-weight: 500;
             }
           `}

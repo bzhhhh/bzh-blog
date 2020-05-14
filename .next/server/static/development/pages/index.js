@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -161,7 +161,7 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 30,
+        lineNumber: 31,
         columnNumber: 7
       }
     }, __jsx("div", {
@@ -169,7 +169,7 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 31,
+        lineNumber: 32,
         columnNumber: 9
       }
     }, __jsx("div", {
@@ -177,7 +177,7 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 32,
+        lineNumber: 33,
         columnNumber: 11
       }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
@@ -185,7 +185,7 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 33,
+        lineNumber: 34,
         columnNumber: 13
       }
     }, __jsx("span", {
@@ -193,7 +193,7 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 34,
+        lineNumber: 35,
         columnNumber: 15
       }
     }, "\u5305\u5D3D\u65E0\u9650\u516C\u53F8"))), __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -203,7 +203,7 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 37,
+        lineNumber: 38,
         columnNumber: 11
       }
     }, __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_3___default.a.Item, {
@@ -211,15 +211,15 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 42,
+        lineNumber: 43,
         columnNumber: 13
       }
-    }, __jsx(_ant_design_icons__WEBPACK_IMPORTED_MODULE_5__["HeartTwoTone"], {
-      twoToneColor: "#e9819b",
+    }, __jsx(_ant_design_icons__WEBPACK_IMPORTED_MODULE_5__["SnippetsTwoTone"], {
+      twoToneColor: "#ccccff",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 43,
+        lineNumber: 44,
         columnNumber: 15
       }
     }), "Blog"), __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_3___default.a.Item, {
@@ -227,15 +227,15 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 47,
+        lineNumber: 48,
         columnNumber: 13
       }
     }, __jsx(_ant_design_icons__WEBPACK_IMPORTED_MODULE_5__["HeartTwoTone"], {
-      twoToneColor: "#e9819b",
+      twoToneColor: "#ccccff",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 48,
+        lineNumber: 49,
         columnNumber: 15
       }
     }), "Cat"), __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_3___default.a.Item, {
@@ -243,15 +243,15 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 52,
+        lineNumber: 53,
         columnNumber: 13
       }
-    }, __jsx(_ant_design_icons__WEBPACK_IMPORTED_MODULE_5__["HeartTwoTone"], {
-      twoToneColor: "#e9819b",
+    }, __jsx(_ant_design_icons__WEBPACK_IMPORTED_MODULE_5__["HomeTwoTone"], {
+      twoToneColor: "#ccccff",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 53,
+        lineNumber: 54,
         columnNumber: 15
       }
     }), "Life")), __jsx(antd_lib_skeleton__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -259,7 +259,7 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 57,
+        lineNumber: 58,
         columnNumber: 11
       }
     })));
@@ -2322,7 +2322,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

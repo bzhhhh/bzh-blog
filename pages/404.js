@@ -18,7 +18,7 @@ const errorPage = () => (
           top: 40%;
           left: 40%;
           transform: translate(-50% -50%);
-          color: #4055b1;
+          color: #99cccc;
         }
       `
       }

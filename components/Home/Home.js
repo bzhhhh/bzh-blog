@@ -1,8 +1,9 @@
 import React from 'react'
 import { Menu, Skeleton } from 'antd'
 import {
+  SnippetsTwoTone,
   HeartTwoTone,
-  SearchOutlined
+  HomeTwoTone,
 } from '@ant-design/icons'
 import Link from 'next/link'
 import Router from 'next/router'
@@ -40,17 +41,17 @@ class Home extends React.Component {
             mode="horizontal"
           >
             <Menu.Item key="/blog">
-              <HeartTwoTone twoToneColor="#e9819b" />
+              <SnippetsTwoTone twoToneColor="#ccccff" />
               Blog
             </Menu.Item>
 
             <Menu.Item key="/cat">
-              <HeartTwoTone twoToneColor="#e9819b" />
+              <HeartTwoTone twoToneColor="#ccccff" />
               Cat
             </Menu.Item>
 
             <Menu.Item key="/life">
-              <HeartTwoTone twoToneColor="#e9819b" />
+              <HomeTwoTone twoToneColor="#ccccff" />
               Life
             </Menu.Item>
           </Menu>
