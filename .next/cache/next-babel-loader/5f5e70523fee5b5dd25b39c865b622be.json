@@ -1,0 +1,1 @@
+{"ast":null,"code":"import Blog from '../components/Blog/Blog';\nexport default Blog;","map":null,"metadata":{},"sourceType":"module"}
