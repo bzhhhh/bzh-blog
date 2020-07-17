@@ -1,5 +1,5 @@
 import React from 'react'
-import { Menu, Skeleton } from 'antd'
+import { Menu, Skeleton, Card } from 'antd'
 import {
   SnippetsTwoTone,
   HeartTwoTone,
@@ -9,6 +9,8 @@ import Link from 'next/link'
 import Router from 'next/router'
 import styles from './home.less'
 
+
+const { Meta } = Card
 class Home extends React.Component {
   constructor(props) {
     super(props)
@@ -55,7 +57,16 @@ class Home extends React.Component {
               Life
             </Menu.Item>
           </Menu>
-          <Skeleton active />
+          {/* <Skeleton active /> */}
+          <div className={'article'}>
+            <Card
+              hoverable
+              style={{ width: 240 }}
+              cover={<img src="/images/bg-1.jpg" />}
+            >
+              <Meta title="富士山下" description="who says you are not worth it" />
+            </Card>
+          </div>
         </div>
       </div>
     )

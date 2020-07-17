@@ -102,14 +102,14 @@ module.exports =
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var antd_lib_skeleton_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! antd/lib/skeleton/style */ "./node_modules/antd/lib/skeleton/style/index.js");
-/* harmony import */ var antd_lib_skeleton_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(antd_lib_skeleton_style__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var antd_lib_skeleton__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/lib/skeleton */ "antd/lib/skeleton");
-/* harmony import */ var antd_lib_skeleton__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(antd_lib_skeleton__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var antd_lib_menu_style__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! antd/lib/menu/style */ "./node_modules/antd/lib/menu/style/index.js");
-/* harmony import */ var antd_lib_menu_style__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(antd_lib_menu_style__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var antd_lib_menu__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! antd/lib/menu */ "antd/lib/menu");
-/* harmony import */ var antd_lib_menu__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(antd_lib_menu__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var antd_lib_menu_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! antd/lib/menu/style */ "./node_modules/antd/lib/menu/style/index.js");
+/* harmony import */ var antd_lib_menu_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(antd_lib_menu_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var antd_lib_menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/lib/menu */ "antd/lib/menu");
+/* harmony import */ var antd_lib_menu__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(antd_lib_menu__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var antd_lib_card_style__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! antd/lib/card/style */ "./node_modules/antd/lib/card/style/index.js");
+/* harmony import */ var antd_lib_card_style__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(antd_lib_card_style__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var antd_lib_card__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! antd/lib/card */ "antd/lib/card");
+/* harmony import */ var antd_lib_card__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(antd_lib_card__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _ant_design_icons__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @ant-design/icons */ "@ant-design/icons");
@@ -124,7 +124,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "E:\\test\\react\\bzh-blog\\components\\Home\\Home.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement;
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
@@ -134,6 +133,9 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 
 
+const {
+  Meta
+} = antd_lib_card__WEBPACK_IMPORTED_MODULE_3___default.a;
 
 class Home extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Component {
   constructor(props) {
@@ -157,112 +159,45 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Component {
 
   render() {
     return __jsx("div", {
-      className: 'home-header',
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 31,
-        columnNumber: 7
-      }
+      className: 'home-header'
     }, __jsx("div", {
-      className: 'content',
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 32,
-        columnNumber: 9
-      }
+      className: 'content'
     }, __jsx("div", {
-      className: 'title',
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 33,
-        columnNumber: 11
-      }
+      className: 'title'
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-      href: "/",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 34,
-        columnNumber: 13
-      }
+      href: "/"
     }, __jsx("span", {
-      className: "sys-name",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 35,
-        columnNumber: 15
-      }
-    }, "\u5305\u5D3D\u65E0\u9650\u516C\u53F8"))), __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_3___default.a, {
+      className: "sys-name"
+    }, "\u5305\u5D3D\u65E0\u9650\u516C\u53F8"))), __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_1___default.a, {
       onClick: this.handleClick,
       selectedKeys: [this.state.current],
-      mode: "horizontal",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 38,
-        columnNumber: 11
-      }
-    }, __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_3___default.a.Item, {
-      key: "/blog",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 43,
-        columnNumber: 13
-      }
+      mode: "horizontal"
+    }, __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_1___default.a.Item, {
+      key: "/blog"
     }, __jsx(_ant_design_icons__WEBPACK_IMPORTED_MODULE_5__["SnippetsTwoTone"], {
-      twoToneColor: "#ccccff",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 44,
-        columnNumber: 15
-      }
-    }), "Blog"), __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_3___default.a.Item, {
-      key: "/cat",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 48,
-        columnNumber: 13
-      }
+      twoToneColor: "#ccccff"
+    }), "Blog"), __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_1___default.a.Item, {
+      key: "/cat"
     }, __jsx(_ant_design_icons__WEBPACK_IMPORTED_MODULE_5__["HeartTwoTone"], {
-      twoToneColor: "#ccccff",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 49,
-        columnNumber: 15
-      }
-    }), "Cat"), __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_3___default.a.Item, {
-      key: "/life",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 53,
-        columnNumber: 13
-      }
+      twoToneColor: "#ccccff"
+    }), "Cat"), __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_1___default.a.Item, {
+      key: "/life"
     }, __jsx(_ant_design_icons__WEBPACK_IMPORTED_MODULE_5__["HomeTwoTone"], {
-      twoToneColor: "#ccccff",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 54,
-        columnNumber: 15
-      }
-    }), "Life")), __jsx(antd_lib_skeleton__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      active: true,
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 58,
-        columnNumber: 11
-      }
-    })));
+      twoToneColor: "#ccccff"
+    }), "Life")), __jsx("div", {
+      className: 'article'
+    }, __jsx(antd_lib_card__WEBPACK_IMPORTED_MODULE_3___default.a, {
+      hoverable: true,
+      style: {
+        width: 240
+      },
+      cover: __jsx("img", {
+        src: "/images/bg-1.jpg"
+      })
+    }, __jsx(Meta, {
+      title: "\u5BCC\u58EB\u5C71\u4E0B",
+      description: "who says you are not worth it"
+    })))));
   }
 
 }
@@ -275,6 +210,82 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Component {
 /*!***********************************!*\
   !*** ./components/Home/home.less ***!
   \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./node_modules/antd/lib/card/style/index.js":
+/*!***************************************************!*\
+  !*** ./node_modules/antd/lib/card/style/index.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+__webpack_require__(/*! ../../style/index.less */ "./node_modules/antd/lib/style/index.less");
+
+__webpack_require__(/*! ./index.less */ "./node_modules/antd/lib/card/style/index.less");
+
+__webpack_require__(/*! ../../tabs/style */ "./node_modules/antd/lib/tabs/style/index.js");
+
+__webpack_require__(/*! ../../row/style */ "./node_modules/antd/lib/row/style/index.js");
+
+__webpack_require__(/*! ../../col/style */ "./node_modules/antd/lib/col/style/index.js");
+
+/***/ }),
+
+/***/ "./node_modules/antd/lib/card/style/index.less":
+/*!*****************************************************!*\
+  !*** ./node_modules/antd/lib/card/style/index.less ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./node_modules/antd/lib/col/style/index.js":
+/*!**************************************************!*\
+  !*** ./node_modules/antd/lib/col/style/index.js ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+__webpack_require__(/*! ../../style/index.less */ "./node_modules/antd/lib/style/index.less");
+
+__webpack_require__(/*! ../../grid/style */ "./node_modules/antd/lib/grid/style/index.js");
+
+/***/ }),
+
+/***/ "./node_modules/antd/lib/grid/style/index.js":
+/*!***************************************************!*\
+  !*** ./node_modules/antd/lib/grid/style/index.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+__webpack_require__(/*! ../../style/index.less */ "./node_modules/antd/lib/style/index.less");
+
+__webpack_require__(/*! ./index.less */ "./node_modules/antd/lib/grid/style/index.less");
+
+/***/ }),
+
+/***/ "./node_modules/antd/lib/grid/style/index.less":
+/*!*****************************************************!*\
+  !*** ./node_modules/antd/lib/grid/style/index.less ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -311,10 +322,10 @@ __webpack_require__(/*! ../../tooltip/style */ "./node_modules/antd/lib/tooltip/
 
 /***/ }),
 
-/***/ "./node_modules/antd/lib/skeleton/style/index.js":
-/*!*******************************************************!*\
-  !*** ./node_modules/antd/lib/skeleton/style/index.js ***!
-  \*******************************************************/
+/***/ "./node_modules/antd/lib/row/style/index.js":
+/*!**************************************************!*\
+  !*** ./node_modules/antd/lib/row/style/index.js ***!
+  \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -323,18 +334,7 @@ __webpack_require__(/*! ../../tooltip/style */ "./node_modules/antd/lib/tooltip/
 
 __webpack_require__(/*! ../../style/index.less */ "./node_modules/antd/lib/style/index.less");
 
-__webpack_require__(/*! ./index.less */ "./node_modules/antd/lib/skeleton/style/index.less");
-
-/***/ }),
-
-/***/ "./node_modules/antd/lib/skeleton/style/index.less":
-/*!*********************************************************!*\
-  !*** ./node_modules/antd/lib/skeleton/style/index.less ***!
-  \*********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
+__webpack_require__(/*! ../../grid/style */ "./node_modules/antd/lib/grid/style/index.js");
 
 /***/ }),
 
@@ -342,6 +342,33 @@ __webpack_require__(/*! ./index.less */ "./node_modules/antd/lib/skeleton/style/
 /*!************************************************!*\
   !*** ./node_modules/antd/lib/style/index.less ***!
   \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./node_modules/antd/lib/tabs/style/index.js":
+/*!***************************************************!*\
+  !*** ./node_modules/antd/lib/tabs/style/index.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+__webpack_require__(/*! ../../style/index.less */ "./node_modules/antd/lib/style/index.less");
+
+__webpack_require__(/*! ./index.less */ "./node_modules/antd/lib/tabs/style/index.less");
+
+/***/ }),
+
+/***/ "./node_modules/antd/lib/tabs/style/index.less":
+/*!*****************************************************!*\
+  !*** ./node_modules/antd/lib/tabs/style/index.less ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -2329,7 +2356,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! E:\test\react\bzh-blog\pages\index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! E:\bzh\bzh-blog\pages\index.js */"./pages/index.js");
 
 
 /***/ }),
@@ -2345,6 +2372,17 @@ module.exports = require("@ant-design/icons");
 
 /***/ }),
 
+/***/ "antd/lib/card":
+/*!********************************!*\
+  !*** external "antd/lib/card" ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("antd/lib/card");
+
+/***/ }),
+
 /***/ "antd/lib/menu":
 /*!********************************!*\
   !*** external "antd/lib/menu" ***!
@@ -2353,17 +2391,6 @@ module.exports = require("@ant-design/icons");
 /***/ (function(module, exports) {
 
 module.exports = require("antd/lib/menu");
-
-/***/ }),
-
-/***/ "antd/lib/skeleton":
-/*!************************************!*\
-  !*** external "antd/lib/skeleton" ***!
-  \************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("antd/lib/skeleton");
 
 /***/ }),
 
